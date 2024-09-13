@@ -1,0 +1,95 @@
+header {
+    background-color: #424242;
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+.carousel-inner {
+    max-width: 100%;
+    max-height: 250px;
+    object-fit: contain;
+}
+
+#backstory {
+    border: 5px solid;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 50%;
+    height: 350px;
+    align-items: left;
+}
+
+#backstory p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+body {
+    background: #424242;
+}
+
+.chessimg {
+    max-height: 200px;
+}
+
+.openingDefinition {
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.imgOpening {
+    width: 250px;
+    height: 250px;
+}
+
+.karateMain {
+    color: #FAFAFA;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+hr {
+    height: 3px;
+    border-color: white;
+    background-color: white;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.info {
+    color: #FAFAFA;
+}
+
+header .navbar {
+    background-color: #343a40;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+}
+
+img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    margin-top: 0;
+}
+
+main p {
+    margin-top: 1rem;
+    line-height: 1.6;
+}
+
+.calis
+{
+    height: 400px;
+}
