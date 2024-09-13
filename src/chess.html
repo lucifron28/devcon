@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+    <title>Ron's Homepage - Profile</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light" href="#"><h1 id="welcome">Profile</h1></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="profile.html">Profile</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Hobbies
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #424242;">
+                      <li><a class="dropdown-item text-light" href="chess.html">Chess</a></li>
+                      <li><a class="dropdown-item text-light" href="karate.html">Karate</a></li>
+                      <li><a class="dropdown-item text-light" href="calisthenics.html">Calisthenics</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="contactme.html">About me</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+        <main>
+          <div class="d-flex p-5 pt-3 pb-1 justify-content-center">
+            <div id="backstory">
+            <h4>Backstory:</h4>
+                <p>
+                    I learned to play chess at a very young age but never become competitive and serious it's<br>
+                    something that we just played whenever I find someone knows the game and that barely happens <br>
+                    thats why I rarely played the game that changed when in 11th grade where a lot of my classmates <br>
+                    knows the game I started to learn openings and strategys doing puzzles and grind some games online. <br>
+                </p>
+            </div>
+          </div>
+          <div class="d-flex p-3 justify-content-center">
+            <div class="card text-bg-light mb-3 mx-3" style="max-width: 90%; min-width:90%">
+              <div class="card-body">
+                <h5 class="card-title">My Top 5 Chess Openings</h5>
+                <div class="accordion mt-4" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <strong>1. Italian Game</strong>
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                      <div class="accordion-body d-flex">
+                        <img src="images/italian-game.png" alt="Image of Italian game opening" class="imgOpening">
+                        <div class="mx-3 mt-3 openingDefinition">The Italian Game is one of the oldest openings in chess and has
+                          been around for centuries. This classical 1.e4 opening can lead to slower and positional
+                          games as well as open, tactical battles. Although very common among beginners, the Italian Game is a
+                          part of the repertoire of players of every level.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <strong>2. Sicilian Defense: Hyperaccelerated Dragon Variation</strong>
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body d-flex">
+                        <img src="images/hyper-accelerated-dragon.png" alt="An image of the Sicilian defense chess opening" class="imgOpening">
+                        <div class="mx-3 mt-3 openingDefinition">This early g6 in the Sicilian signifies the Hyper-Accelerated Dragon (HAD).
+                          The main idea is to delay d6, in order to later be able to play d5 push in one go.
+                          When it gets too risky, black can always transpose into the regular dragon structure
+                          by playing d6. Another plus is, that black often has opportunities to force white to
+                          castle kingside. The drawback is that white can play c4 before Nc3 (Maroczy Bind)
+                          or get into sharp lines early on.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <strong>3. Queen's Gambit</strong>
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body d-flex">
+                        <img src="images/queensgambit.jpeg" alt="An image of the Queen's Gambit chess opening" class="imgOpening">
+                        <div class="mx-3 mt-3 openingDefinition">The Queen's Gambit is one of the oldest and most reputable 1.d4 openings for White. Unlike
+                          1.e4 openings, the Queen's Gambit usually evolves into a strategic game rather than an all-out
+                          tactical battle. Despite being around for centuries, this opening is still one of the cornerstones
+                          of every elite players' repertoire. It's also an excellent choice for beginners and intermediate
+                          players.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <strong>4. London System</strong>
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body d-flex">
+                        <img src="images/londonsystem.webp" alt="An image of the London System chess opening" class="imgOpening">
+                        <div class="mx-3 mt-3 openingDefinition">The London System is a popular 1.d4 opening for White. Known for its solidity and
+                          simplicity, it avoids the vast amount of theory of other 1.d4 openings. The London System is a favorite
+                          among club players for its straightforward development and lack of sharp counterplay for Black.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <strong>5. King's Indian Defense</strong>
+                      </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body d-flex">
+                        <img src="images/kingsindian.png" alt="An image of the King's Indian Defense chess opening" class="imgOpening">
+                        <div class="mx-3 mt-3 openingDefinition">The King's Indian Defense is a dynamic opening for Black against 1.d4. It leads to
+                          rich and complex positions where Black aims for a counterattack. This opening has been a favorite
+                          of many world champions, including Garry Kasparov.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card text-bg-secondary mb-3 px-3" style="max-width: 24rem;">
+            <div class="card-header">Images</div>
+            <div class="card-body">
+                <h5 class="card-title">Here are some images of me playing</h5>
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active flex-shrink-0">
+                            <img src="images/intrams.png class="d-block w-100 chessimg" alt="...">
+                        </div>
+                        <div class="carousel-item flex-shrink-0">
+                            <img src="images/tryouts.jpg" class="d-block w-100 chessimg" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </main>
+        <footer></footer>
+    </body>
+</html>
